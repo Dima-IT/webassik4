@@ -1,0 +1,67 @@
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.task {
+    background-color: white;
+    padding: 25px;
+    margin: 25px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.basic-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.basic-form input,
+.basic-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.basic-form textarea {
+    min-height: 100px;
+}
+
+.basic-form button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.basic-form button:hover {
+    background-color: #0b5ed7;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn {
+    margin-right: 5px;
+}
